@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Accordian from "./Components/Accordian/Accordian";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { item } from "./items";
+
+
+const App = () => {
+    return (
+        <div className="container-fluid">
+            <div className="row">
+                <div className="col-sm-12">
+                    <h1>hello satyam</h1>
+                    <div id="liveAlertPlaceholder"></div>
+                    <button type="button" className="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+                </div>
+            </div>
+        </div>
+
+
+    )
 }
 
 export default App;
