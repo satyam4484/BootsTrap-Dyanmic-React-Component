@@ -1,22 +1,15 @@
 import Accordian from "./Components/Accordian/Accordian";
-
+import Carousal from "./Components/Carousal/Carousal";
 import { item } from "./items";
 
-
+import Card from "./Components/Cards/Card";
 const App = () => {
     return (
         <div className="container-fluid">
-            <div className="row">
-                <div className="col-sm-12">
-                    <h1>hello satyam</h1>
-                    <div id="liveAlertPlaceholder"></div>
-                    <button type="button" className="btn btn-primary" id="liveAlertBtn">Show live alert</button>
-                </div>
+            <div className="row justify-content-evenly">
+                
             </div>
         </div>
-
-
     )
 }
-
 export default App;
